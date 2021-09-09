@@ -10,7 +10,7 @@ from handlers import all_handlers
 logging.basicConfig(
     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', level=logging.INFO)
 
-token = os.environ['TELEGRAM_TOKEN']
+token ='1957462828:AAEeTJ8j1GJh7SUSpw2xvY9DcPESW8n4BJY'
 
 updater = Updater(token)
 for handler in all_handlers:
